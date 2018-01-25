@@ -1,0 +1,23 @@
+﻿        body{margin:0px;padding :0px;font-size:12px;font-family:宋体,verdana,Arial, Helvetica;}
+        /*--容器样式--*/
+        .container{width:98%;margin-right: auto;margin-left: auto;}
+        /*--左侧样式--*/
+        .leftPanel{float:left;width:20%;overflow:hidden;border-top:1px solid #000;border-bottom:1px solid #000;border-left:1px solid #000;}
+        /*--右侧样式--*/
+        .rightPanel{float:left;width:69.8%;border-top:1px solid #000;border-bottom:1px solid #000; border-right:#000 solid 1px;}
+        /*--左侧内容容器样式--*/
+        .leftContent{height:250px;overflow-y:hidden;overflow-x:scroll;}
+        /*--左侧title宽度--*/
+        .leftTitle{width:100%;margin-bottom:1px;}
+        .container table{border-collapse:collapse;border-spacing:0px; width:100%; border:#000 solid 0px;}
+        .container table th{background-color:#93C3A5;color:#777;border:#000 solid 1px; font-size:12px;white-space:nowrap; height:22px; border-top:0px;border-left:0px;}
+        /*--右侧table宽度--*/
+        .rightPanel table{width:1800px;}
+        /*--右侧title宽度多20+px 方便滚动条显示--*/
+        .rightTitle {width:1820px;margin-bottom:1px;}
+        /*--右侧包涵标题容器样式--*/
+        .rightTop{width:100%;overflow:hidden;}
+        /*--右侧内容容器样式--*/
+        .rightContent{width:100%; height:250px; background:#fff; overflow:auto;}
+        .container table td{text-align:center; border:#000 solid 1px;border-left:0px;height:18px;word-break:break-all;white-space:none;}
+        .leftContent table tr{cursor:pointer;} 
